@@ -1,0 +1,56 @@
+.HomePageContainer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.LeftSide {
+    background-color: #e9d8a6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.CollinCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    height: 50vh;
+    width: 25vw;
+    background-color: #ca6702;
+}
+
+.photo {
+    padding: 20px;
+    width: 50%;
+    height: width;
+    border-radius: 90%;
+}
+
+.ColorLine {
+    width: 150px;
+    height: 10px;
+    background-color: #005f73;
+}
+
+.ExternalLinks {
+    display: flex;
+    height: 8%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.IntroCard {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 20vw;
+}

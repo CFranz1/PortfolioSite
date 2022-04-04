@@ -1,0 +1,28 @@
+.HeaderContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: white;
+}
+
+.LogoSide {
+    padding: 10px;
+}
+
+.LogoSide span {
+    margin: 10px;
+}
+
+.Name {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.NavBar {
+    padding: 10px;
+}
+
+.NavBar a {
+    margin: 10px;
+}
