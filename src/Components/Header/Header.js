@@ -5,14 +5,14 @@ export let Header = () => {
     return (
         <div className={classes.HeaderContainer}>
             <div className={classes.LogoSide}>
-                <span id="Logo">Logo</span>
                 <span className={classes.Name}>Collin Franz</span>
-                <span id="JobTitle">Web Developer</span>
+                <span className={classes.Slash}>/</span>
+                <span className={classes.Title}>Web Developer</span>
             </div>
             <div className={classes.NavBar}>
-                <Link to="/About" >About</Link>
-                <Link to="/Projects">Projects</Link>
-                <Link to="/Contact">Contact</Link>
+                <Link to="/About" >ABOUT</Link>
+                <Link to="/Projects">PROJECTS</Link>
+                <Link to="/Contact">CONTACT</Link>
             </div>
         </div>
     )

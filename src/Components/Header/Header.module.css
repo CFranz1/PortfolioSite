@@ -7,11 +7,9 @@
 }
 
 .LogoSide {
-    padding: 10px;
-}
-
-.LogoSide span {
-    margin: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
 }
 
 .Name {
@@ -19,10 +17,38 @@
     font-size: x-large;
 }
 
+.Slash {
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
+
+.Title {
+    margin-left: 10px;
+    padding-top: 5px;
+}
+
 .NavBar {
+    display: flex;
+    align-items: center;
     padding: 10px;
+    margin-right: 50px;
 }
 
 .NavBar a {
     margin: 10px;
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.NavBar a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.NavBar a:hover {
+    color: var(--accent-color);
 }

@@ -6,11 +6,11 @@
 }
 
 .LeftSide {
-    background-color: #e9d8a6;
+    background-color: var(--background-color);
     position: absolute;
     top: 0;
     left: 0;
-    width: 50vw;
+    width: 43vw;
     height: 100vh;
     z-index: -1;
 }
@@ -21,9 +21,21 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1;
-    height: 50vh;
-    width: 25vw;
-    background-color: #ca6702;
+    height: fit-content;
+    width: 300px;
+    background-color: var(--background-color2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
+    margin-right: 15px;
+}
+
+.CollinCard h1 {
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
+}
+
+.CollinCard h2 {
+    margin: 30px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .photo {
@@ -34,23 +46,52 @@
 }
 
 .ColorLine {
-    width: 150px;
-    height: 10px;
-    background-color: #005f73;
+    margin-top: 10px;
+    width: 50px;
+    height: 4px;
+    background-color: var(--accent-color);
 }
 
 .ExternalLinks {
     display: flex;
-    height: 8%;
+    height: 40px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 100%;
+}
+
+.ExternalLinks i {
+    margin: 10px;
+}
+
+.ExternalLinks i:hover {
+    color: var(--accent-color);
 }
 
 .IntroCard {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     z-index: 1;
-    width: 20vw;
+    width: 300px;
+    height: 457px;
+}
+
+.IntroCard h1 {
+    font-size: 60pt;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.ButtonContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.IntroCard span {
+    margin-bottom: 25px;
 }

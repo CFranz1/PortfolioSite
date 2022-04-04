@@ -22,3 +22,11 @@
 .footerBox span {
     font-size: large;
 }
+
+.footerBox i {
+    margin: 5px;
+}
+
+.footerBox i:hover {
+    color: var(--accent-color);
+}
