@@ -29,9 +29,9 @@ export let Header = () => {
                 <i class="fa-solid fa-align-justify fa-xl" onClick={() => renderLinkOptions()}></i>
                 {renderPopUp ?
                     <div className={classes.navBarPopUp}>
-                        <Link to="/About" >ABOUT</Link>
-                        <Link to="/Projects">PROJECTS</Link>
-                        <Link to="/Contact">CONTACT</Link>
+                        <Link to="/About" onClick={renderLinkOptions} >ABOUT</Link>
+                        <Link to="/Projects" onClick={renderLinkOptions}>PROJECTS</Link>
+                        <Link to="/Contact" onclick={renderLinkOptions}>CONTACT</Link>
                     </div>
                     : null}
             </div>

@@ -1,6 +1,7 @@
 .HeaderContainer {
     display: flex;
     width: 100%;
+    height: 50px;
     justify-content: space-between;
     z-index: 1;
     background-color: white;
@@ -68,7 +69,7 @@
     top: 38px;
     left: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .navBarPopUp a {
