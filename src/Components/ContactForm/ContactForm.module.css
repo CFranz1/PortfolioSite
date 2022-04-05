@@ -1,0 +1,35 @@
+.Form {
+    background-color: white;
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    box-shadow: -5px 5px 18px 3px rgba(0, 0, 0, 0.274);
+    margin: 15px;
+}
+
+.Form span {
+    font-size: larger;
+}
+
+.Form input {
+    font-size: larger;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.Form input:focus {
+    outline: none;
+}
+
+.Form textarea {
+    font-size: larger;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.Form textarea:focus {
+    outline: none;
+}

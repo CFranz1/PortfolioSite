@@ -3,11 +3,19 @@ import photo from './photo.jpg'
 import IconWithLink from "../../Components/IconWithLink/IconWithLink"
 import Button from "../../Components/Button/Button"
 import Resume from './CollinFranzResume.docx'
+import { useNavigate } from "react-router-dom"
 export let HomePage = () => {
+
+    let navigate = useNavigate();
 
     const openResume = (e) => {
         e.preventDefault();
         window.open(Resume);
+    }
+
+    const pushToProjectsPage = (e) => {
+        e.preventDefault();
+        navigate("/Projects");
     }
 
     return (
@@ -28,7 +36,7 @@ export let HomePage = () => {
                 <h1> Hello</h1>
                 <div className={classes.ButtonContainer}>
                     <Button style="plain" onClickHandler={openResume}>resume</Button>
-                    <Button style="outlined">projects</Button>
+                    <Button style="outlined" onClickHandler={pushToProjectsPage}>projects</Button>
                 </div>
                 <span>I am a driven web developer with a passion for making pixel perfect front ends and fully functioning back ends from the ground up.</span>
                 <span>I am looking to join a company as a Front-End, Back-End, or Full Stack Engineer in order to create amazing websites.</span>

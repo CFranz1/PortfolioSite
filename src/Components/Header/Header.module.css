@@ -52,3 +52,48 @@
 .NavBar a:hover {
     color: var(--accent-color);
 }
+
+.NavIcon {
+    display: none;
+}
+
+.navBarPopUp {
+    z-index: 80;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navBarPopUp a {
+    text-decoration: none;
+    font-size: 3rem;
+    margin: 15px;
+}
+
+.navBarPopUp a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navBarPopUp a:hover {
+    color: var(--accent-color);
+}
+
+@media only screen and (max-width: 768px) {
+    .NavBar {
+        display: none;
+    }
+
+    .NavIcon {
+        display: block;
+        padding: 10px;
+        margin-right: 50px;
+    }
+}

@@ -1,0 +1,12 @@
+.ContactsPageContainer {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.ContactsPageContainer span {
+    margin: 15px;
+    font-size: larger;
+}
